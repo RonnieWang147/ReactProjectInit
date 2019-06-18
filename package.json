@@ -1,0 +1,24 @@
+{
+  "name": "ReactProjectInit",
+  "version": "1.0.0",
+  "description": "Initial setting up for all React Applications",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RonnieWang147/ReactProjectInit.git"
+  },
+  "keywords": [
+    "React",
+    "init",
+    "settings"
+  ],
+  "author": "Ronnie",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RonnieWang147/ReactProjectInit/issues"
+  },
+  "homepage": "https://github.com/RonnieWang147/ReactProjectInit#readme"
+}
