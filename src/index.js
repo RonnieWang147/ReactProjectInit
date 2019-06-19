@@ -1,15 +1,8 @@
-var A = "5";
-var b = 100;
-
-var c = b + A;
-
 function ugly(arg1, arg2) {
-  if (arg1 === 'undefined') {
-    arg1 = 'frog';
-  } else {
-    arg2 = 'raccoon';
+  if (arg1 > arg2) {
+    return arg1;
   }
-
-  return arg1 + arg2;
+  return arg2;
 }
-console.log(c);
+
+ugly(1, 2);
