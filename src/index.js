@@ -1,12 +1,5 @@
-function test(a, b) {
-  console.log(a);
-  const c = 123;
-  console.log(c);
-  function a() {}
-  console.log(b);
-  var b = function c() {};
+import React from 'react';
 
-  console.log(b);
-}
+const spinner = props => <h1>Spinner</h1>;
 
-test(1, 2);
+export default spinner;
