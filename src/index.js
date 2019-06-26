@@ -1,8 +1,12 @@
-function ugly(arg1, arg2) {
-  if (arg1 > arg2) {
-    return arg1;
-  }
-  return arg2;
+function test(a, b) {
+  console.log(a);
+  const c = 123;
+  console.log(c);
+  function a() {}
+  console.log(b);
+  var b = function c() {};
+
+  console.log(b);
 }
 
-ugly(1, 2);
+test(1, 2);
