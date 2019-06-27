@@ -1,8 +1,10 @@
 {
-  "name": "ReactProjectInit",
+  "name": "react-css-spinner",
   "version": "1.0.0",
   "description": "Initial setting up for all React Applications",
-  "main": "index.js",
+  "main": "dist/bundle.cjs.js",
+  "module": "dist/bundle.esm.js",
+  "sideEffects": false,
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "rollup -c",
@@ -53,6 +55,13 @@
     "rollup": "^1.16.2",
     "rollup-plugin-babel": "^4.3.3",
     "rollup-plugin-node-resolve": "^5.1.0",
+    "rollup-plugin-string": "^3.0.0",
     "rollup-plugin-terser": "^5.0.0"
+  },
+  "peerDependencies": {
+    "react": ">=16.2.0"
+  },
+  "engines": {
+    "node": ">=8"
   }
 }
